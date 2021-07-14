@@ -1,0 +1,32 @@
+JavaScriptObjectNotation:
+
+XML:
+
+data transfer
+web service>> SOAP>>xml, REST>> json, xml
+configuration
+
+{"key":value}
+
+Number:
+{"pincode":587120}
+String:
+{"model":"Realme 5s"}
+Boolean:
+{"isGpuAvailable":false}
+Object:
+{
+"technologies":{"java":"spring boot","javascript":"react","python":"django"}
+}
+Array:
+{
+"apps":["DLithe E Buddy","DLithe Store","Assembly tracker"]
+}
+
+
+
+hooks
+style
+storage
+
+

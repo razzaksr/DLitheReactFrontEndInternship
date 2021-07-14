@@ -1,0 +1,79 @@
+Front end development:
+
+Agenda:
+
+Introduction application
+Overview of web technology
+React
+Setup
+
+
+Storing data
+Operations
+
+
+Insta: Social app
+name
+dob
+images
+videos
+post
+
+uploading
+comment
+tag
+hashtags
+save/ download
+
+
+Logics:
+Presentation >> UI >> front end
+Business     >> Middle ware>> back end
+Data access  >> storage
+
+
+Types:
+Desktop/ Windows app:
+eg: ms office, reader, vlc, bluestack, games,.....
+lang: java, dot net, python,....
+front: Swing, WPF, Tkinter, Jypthon
+back end: JavaSE, C#, python
+data: file system, server
+
+Web app:
+lang: java, dot net, pyhton, php, javascript, ruby
+front end: Spring boot, Razor, Flask, React, Angular, Vue, RubyOnRails
+back end: Spring Boot, C#, DJango, Express
+data: file system, server
+
+mobile app
+iot app
+
+
+Web Technology:
+Front end: HTML, CSS, JS, Bootstrap
+
+Framework:
+Angular>> type script
+Vue
+React>> library
+
+Component based functionality:
+
+
+Tools:
+vs code
+node
+react developer tool in your browser>> debug
+
+
+Google Keep - POC
+
+Bootstrap
+
+useState>> react hook
+
+array
+
+json
+

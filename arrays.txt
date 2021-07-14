@@ -1,0 +1,68 @@
+Javascript:
+
+store:
+const/vat/let
+
+types:
+Number
+String
+Boolean
+Object
+
+operations:
+functions>>
+built in:
+
+alert
+prompt
+confirm
+parseInt
+parseFloat
+
+Document: write,writeln,getElementById, getElementsByName,........
+Window: location, print
+Number: cast from string to numeric
+String: upper,lower, count,length
+Array: push,pop,length,.....
+
+user defined:
+
+function fun_name(param)
+{
+// logic 
+// return>> return data to the function caller
+}
+
+
+arithemetic: + - * / %
+unary: ++ --
+shorthand: += -= *= /= %=
+bitwise: & | ^ >> <<
+
+true/false
+relational:compare : > >= < <= == !=
+logical:&& ||
+
+
+control/decision:
+if
+switch
+
+looping:
+while
+do while
+for:
+for(init;cond;iter)
+{
+
+}
+
+for(tempvar in storage)
+{
+
+}
+
+
+array:
+const identifier=new Array();
+

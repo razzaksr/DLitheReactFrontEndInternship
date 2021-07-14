@@ -1,0 +1,54 @@
+Front end development: UI/ few backend logics
+
+HTML
+CSS
+Bootstrap
+UI
+
+
+Javascript>>
+
+client side event handling:
+
+validation: data, form
+styles
+convertors
+.
+.
+
+Data types:
+String
+Number
+Object
+Boolean
+.
+.
+
+Class:
+Window>>
+Document>
+
+
+
+OOP
+Exception handling
+Array
+.
+.
+
+
+<script>
+	
+</script>
+
+
+
+store data:
+var identifier=value
+typeof()
+
+function:
+function identifier()
+{
+// logic
+}

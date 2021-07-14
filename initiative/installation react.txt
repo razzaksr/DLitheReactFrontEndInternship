@@ -1,0 +1,50 @@
+React installation steps:
+
+1. Installing Node by downloading from nodejs.org
+
+once you done with node check version through command prompt by
+
+node -v
+npm -v
+
+2. Install VS CODE
+
+3. Install react library throgh following commands in command prompt
+
+	npm install -g create-react-app
+	
+	create-react-app --version		>> this is to check version of react
+
+4. Create folder and open it in vs code then type following in VS CODE terminal
+	create-react-app PROJECTNAME
+
+5. This step is optional: those who got error in VS CODE terminal
+
+	set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+React:
+	Babel		>> Convertor>> modern js in to native>> ES6
+	Web pack	>> Handles dependencies>> bootstrap, react-router-dom
+
+
+Project Done:
+
+src>> Javascript files
+index.js>> Component
+
+react		
+react-dom	JavaScriptXml/eXtension
+
+<h1 contenteditable="true"></h1>		HTML
+<h1 contentEditable="true"></h1>		JSX
+<h1 class="text-center"></h1>			HTML
+<h1 className="text-center">			JSX
+
+
+
+public>> index.html,index.css, Images/asset
+package-json>> dependencies
+
+JS>> JSX>> {javascript}
+
+
