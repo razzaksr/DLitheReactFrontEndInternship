@@ -1,10 +1,52 @@
-import React from "react";
+import React, { useState } from "react";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import {TextField,Button} from "@material-ui/core";
 import AddIcon from '@material-ui/icons/Add';
 const NewUser=()=>{
-    const evs=()=>{
 
+    let tmp=new Array();
+
+    const[user,setUser]=useState({
+        username:"",
+        password:"",
+        conpassword:"",
+        contact:0
+    })
+
+    const adding=()=>{
+
+        tmp=JSON.parse(localStorage.getItem("profiles"))// read existing
+        tmp.push(user)// add new user to existing 
+        const txt=JSON.stringify(tmp);// to text
+        localStorage.setItem("profiles",txt)// add to storage
+        alert("User has added");
+
+        /* const objs=JSON.parse(localStorage.getItem("profiles"))
+
+        for(var pos in objs)
+        {
+            alert(objs[pos].username)
+        } */
+
+        setUser(()=>{
+            return{
+                username:"",
+                password:"",
+                conpassword:"",
+                contact:0
+            }
+        })
+    }
+
+    const evs=(event)=>{
+        const{name,value}=event.target;
+
+        setUser((old)=>{
+            return{
+                ...old,
+                [name]:value
+            }
+        });
     }
     return(
         <>
@@ -19,7 +61,7 @@ const NewUser=()=>{
                     placeholder="Tell us username"
                     className="form-control mb-3" 
                     name="username"
-                    value=""
+                    value={user.username}
                     onChange={evs}
                     />
                     <TextField
@@ -31,7 +73,7 @@ const NewUser=()=>{
                     variant="outlined"
                     name="password"
                     placeholder="Choose password"
-                    value=""
+                    value={user.password}
                     onChange={evs}
                     />
                     <TextField
@@ -43,7 +85,7 @@ const NewUser=()=>{
                     variant="outlined"
                     placeholder="Confirm password"
                     name="conpassword"
-                    value=""
+                    value={user.conpassword}
                     onChange={evs}
                     />
                     <TextField
@@ -53,11 +95,11 @@ const NewUser=()=>{
                     variant="outlined"
                     placeholder="Tell us contact" 
                     name="contact"
-                    value=""
+                    value={user.contact}
                     onChange={evs}
                     />
                     <div className="row justify-content-around">
-                        <Button className="col-4" variant="outlined" color="primary">
+                        <Button className="col-2" variant="outlined" color="primary" onClick={adding}>
                             <AddIcon/>
                         </Button>
                     </div>

@@ -24,7 +24,7 @@ const LogMenu=()=>{
                             <Nav.Link href="#" className="me-3 text-dark btn btn-outline-primary">
                                 Deliver
                             </Nav.Link>
-                            <Nav.Link href="#" className="me-3 text-dark btn btn-outline-primary">
+                            <Nav.Link href="/contact" className="me-3 text-dark btn btn-outline-primary">
                                 ContactUS
                             </Nav.Link>
                         </Nav>
