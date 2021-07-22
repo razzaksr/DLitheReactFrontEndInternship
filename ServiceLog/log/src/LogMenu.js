@@ -15,10 +15,10 @@ const LogMenu=()=>{
                             <Nav.Link href="/" className="me-3 text-dark btn btn-outline-primary">
                                 Home
                             </Nav.Link>
-                            <Nav.Link href="#" className="me-3 text-dark btn btn-outline-primary">
+                            <Nav.Link href="/in" className="me-3 text-dark btn btn-outline-primary">
                                 InTake
                             </Nav.Link>
-                            <Nav.Link href="#" className="me-3 text-dark btn btn-outline-primary">
+                            <Nav.Link href="/view" className="me-3 text-dark btn btn-outline-primary">
                                 List
                             </Nav.Link>
                             <Nav.Link href="#" className="me-3 text-dark btn btn-outline-primary">
