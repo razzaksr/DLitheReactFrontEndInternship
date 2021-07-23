@@ -4,7 +4,7 @@ import {TextField,Button} from "@material-ui/core";
 import SendIcon from '@material-ui/icons/Send';
 import Send from "@material-ui/icons/Send";
 import  "react-icons/fa";
-import { FaFacebook, FaGooglePlusG, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaGooglePlusG, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const ContactUs=()=>{
     return(
@@ -50,12 +50,18 @@ const ContactUs=()=>{
                     </div>
                     <div className="col-md-6 col-sm-12">
                         <div className="row justify-content-around">
-                            <FaFacebook href="https://www.facebook.com/Dlitheconsultancyservices/" style={{height:'200px',width:'250px'}}/>
-                            <FaLinkedin href="https://www.linkedin.com/company/dlithe?originalSubdomain=in" style={{height:'200px',width:'250px'}}/>
+                            <a className="col" href="https://www.facebook.com/Dlitheconsultancyservices/">
+                                <FaFacebook color="#3b5998" style={{height:'200px',width:'250px'}}/>
+                            </a>
+                            <a className="col" href="https://www.linkedin.com/company/dlithe?originalSubdomain=in">
+                                <FaLinkedin color="#0077b5" style={{height:'200px',width:'250px'}}/>
+                            </a>
                         </div>
                         <div className="row justify-content-around">
-                            <FaInstagram href="https://www.facebook.com/Dlitheconsultancyservices/" style={{height:'200px',width:'250px'}}/>
-                            <FaGooglePlusG href="https://www.linkedin.com/company/dlithe?originalSubdomain=in" style={{height:'200px',width:'250px'}}/>
+                            <a className="col" href="https://www.facebook.com/Dlitheconsultancyservices/">
+                                <FaTwitter color="#00acee" style={{height:'200px',width:'250px'}}/>
+                            </a>
+                            <FaGooglePlusG className="col" href="https://www.linkedin.com/company/dlithe?originalSubdomain=in" style={{height:'200px',width:'250px'}}/>
                         </div>
                     </div>
                 </div>
